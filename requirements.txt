@@ -1,0 +1,2 @@
+module: requests
+(pip3 install requests)
