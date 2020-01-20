@@ -1,6 +1,9 @@
 import sample2
 
-# If the file values of "letters.txt" have been deleted, the count of the alphabet will not be 26.
+'''If the file values of "letters.txt" have been deleted, the count of the\
+alphabet will not be 26.'''
+
+
 def test_check_file():
     file = open("letters.txt", "r")
     count = 0

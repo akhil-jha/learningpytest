@@ -1,6 +1,7 @@
 """
 Creating a program to collect weather information as per user choice
-Using the api provided by weatherstack.com to query the values and storing in a global response variable
+Using the api provided by weatherstack.com to query the values and storing in \
+a global response variable
 According to the user's choice, the values can be displayed
 """
 
@@ -8,7 +9,8 @@ import requests
 
 
 def query_response(city):
-    url = "http://api.weatherstack.com/current?access_key=4d7e313e8ed86caa673c2723f4c68d24&query=" + city
+    url = "http://api.weatherstack.com/current?access_key=\
+    4d7e313e8ed86caa673c2723f4c68d24&query=" + city
     global response
     response = requests.get(url)
     return response
@@ -53,4 +55,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
